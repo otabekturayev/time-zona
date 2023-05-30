@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="set__second">
+            <h3>The Current Epoch Unix Timestamp</h3>
+            <div class="set__second__inner">
+                <div class="set__second__left"> 
+                    <h5>Enter a Timestamp</h5>
+                    <input type="number" placeholder="1234567891" name="number" id="number">
+                    <p>Supports Unix timestamps in seconds, milliseconds, microseconds and nanoseconds.</p>
+                    <button class="btns btn1">Convert →</button>
+                </div>
+                <div class="set__second__right">
+                    <div class="seconds"></div>
+                    <p>Seconds since jan 01 1970. (UTC)</p>
+                    <div class="time"></div>
+                    <button>Copy</button>
+                </div>
+            </div>
+        </div>
+        <div class="set__date">
+            <table class="table1">
+                <tbody>
+                    <tr>
+                        <td>Format</td>
+                        <td class="format"></td>
+                    </tr>
+                    <tr>
+                        <td>GMT</td>
+                        <td class="gmt"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Time Zone</td>
+                        <td class="time__zone"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Enter a Date & Time</h5>
+            <div class="set__time">
+                <div class="item">
+                    <label for="year">Year</label>
+                    <input type="number" placeholder="YYYY" name="year" id="year">
+                </div>
+                <div class="item">
+                    <label for="month">Month</label>
+                    <input type="number" placeholder="MM" name="month" id="month">
+                </div>
+                <div class="item">
+                    <label for="day">Day</label>
+                    <input type="number" placeholder="DD" name="day" id="day">
+                </div>
+                <div class="item">
+                    <label for="hour">Hour (24 hour)</label>
+                    <input type="number" placeholder="HH" name="hour" id="hour">
+                </div>
+                <div class="item">
+                    <label for="minute">Minutes</label>
+                    <input type="number" placeholder="MM" name="minute" id="minute">
+                </div>
+                <div class="item">
+                    <label for="second">Seconds</label>
+                    <input type="number" placeholder="SS" name="second" id="second">
+                </div>
+            </div>
+            <button class="btns btn2">Convert →</button>
+            <table class="table2">
+                <tbody>
+                    <tr>
+                        <td>Unix Timestamp</td>
+                        <td class="unix"></td>
+                    </tr>
+                    <tr>
+                        <td>GMT</td>
+                        <td class="gmt2"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Time Zone</td>
+                        <td class="time__zone2"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

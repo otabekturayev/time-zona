@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+}
+.btns{
+    background-color: #2185d0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    padding: 9.5px 14px;
+    font-weight: 700;
+    &:hover{
+        background-color: #1872b7;
+    }
+}
+
+.wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    .set__second{
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 32px;
+        h3{
+            font-weight: 700;
+        }
+        &__inner{
+            padding-top: 14px;
+            padding-bottom: 14px;
+            display: flex;
+            .set__second__left{
+                padding-right: 14px;
+                width: 336px;
+                h5{
+                    margin-bottom: 14px;
+                }
+                input{
+                    width: 100%;
+                    padding: 9.5px 14px;
+                    outline: 0;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    border: 1px solid rgba(34,36,38,.15);
+                    &:hover{
+                        border: 1px solid rgb(95, 95, 236);
+                    }
+                }
+                p{
+                    padding: 4.5px;
+                    font-size: 14px;
+                    color: #777;
+                    width: 100%;
+                    margin-bottom: 14px;
+                }
+            }
+            .set__second__right{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding-left: 14px;
+                .seconds{
+                    font-size: 56px;
+                    text-transform: uppercase;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                .time{
+                    padding-top: 10px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    margin-bottom: 14px;
+                }
+                button{
+                    font-size: 14px;
+                    cursor: pointer;
+                    border: 1px solid black;
+                    border-radius: 5px;
+                    padding: 9.5px 20px;
+                    background-color: transparent;
+                    align-self: flex-start;
+                }
+            }
+        }
+    }
+    .set__date{
+        max-width: 700px;
+        margin: 0 auto;
+        .table1{
+            display: none;
+            border-collapse: collapse;
+            margin-bottom: 26px;
+            tbody{
+                border: 1px solid black;
+                tr{
+                    td{
+                        border: 1px solid rgba(34,36,38,.1);
+                        padding: 11px;
+                        width: 500px;
+                    }   
+                    td:first-child{
+                        width: 200px;
+                        font-weight: 700;
+                        background-color: rgba(0,0,0,.03);
+                    }
+                }
+            }
+        }
+        h5{
+            margin-bottom: 14px;
+        }
+        .set__time{
+            display: flex;
+            gap: 14px;
+            margin-bottom: 14px;
+            label{
+                font-weight: 700;
+                font-size: 13px;
+            }
+            input{
+                padding: 10px 14px;
+                border-radius: 5px;
+                border: 1px solid rgba(34, 36, 38, 0.226);
+                width: 105px;
+                outline: 0;
+                margin-top: 5px;
+                font-size: 16px;
+                &:hover{
+                    border: 1px solid rgb(95, 95, 236);
+                }
+            }
+        }
+        .table2{
+            display: none;
+            border-collapse: collapse;
+            margin-top: 14px;
+            tbody{
+                border: 1px solid black;
+                tr{
+                    td{
+                        border: 1px solid rgba(34,36,38,.1);
+                        padding: 11px;
+                        width: 500px;
+                    }   
+                    td:first-child{
+                        width: 200px;
+                        font-weight: 700;
+                        background-color: rgba(0,0,0,.03);
+                    }
+                }
+            }
+        }
+    }
+}
